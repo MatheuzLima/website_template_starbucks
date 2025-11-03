@@ -11,10 +11,9 @@
     --gbar: #006341;
     --button-gray: #454545;
     --button-white: #ffffff;
-    --bg: #e8e9ee;
+    --area4-bg: #e8e9ee;
     --footer: #333;
 }
-
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -25,11 +24,10 @@ body {
     margin: auto;
 }
 
-/* Elementos Globais inicio */
 .gbar {
     width: 168px;
     height: 22px;
-    background-color: var(--green);
+    background-color: var(--gbar);
 }
 
 h1 {
@@ -62,8 +60,6 @@ h2 {
     background-color: var(--button-gray);
     color: var(--button-white);
 }
-
-/* Fim. */
 
 header .line {
     background-color: var(--gbar);
@@ -159,7 +155,6 @@ header .line {
 .area1--text {
     padding-bottom: 50px;
     line-height: 25px;
-
 }
 
 .area1--image1 {
@@ -189,7 +184,6 @@ header .line {
 .area2--text {
     padding-bottom: 50px;
     line-height: 25px;
-
 }
 
 .area2--image1 {
@@ -233,7 +227,7 @@ header .line {
 .area4 {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: var(--bg);
+    background-color: var(--area4-bg);
 }
 
 .area4--conteudo {
@@ -259,7 +253,7 @@ header .line {
 
 footer {
     background-color: var(--footer);
-    color: var(--button-white);
+    color: #fff;
     padding: 80px;
     text-align: center;
 }
