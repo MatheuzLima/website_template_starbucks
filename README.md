@@ -19,6 +19,8 @@ Boas práticas de layout (mobile-first, containers, hierarquia visual)
 A página simula uma campanha promocional da Starbucks chamada “Happy Hour”, com seções destacando produtos, frases e botões de navegação.
 </br>
 
+Link: https://lptemplatestrarbcks.netlify.app/
+
 <img src="page-preview-starbucks.png">
 
 
